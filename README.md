@@ -13,10 +13,11 @@ Software engineer at NetApp in Durham, NC, working on Go backend services on Kub
 
 #### Command-line tools
 
-agents-top and project-tree-md also have a `--json` mode and a `SKILL.md`, so coding agents can use them too.
+agents-top, project-tree-md and bash-guard also have a `--json` mode and a `SKILL.md`, so coding agents can use them too.
 
 - [**agents-top**](https://github.com/Neilsmahajan/agents-top): `top` for coding-agent sessions. Every Claude Code session and Codex process on your machine in one terminal view.
 - [**project-tree-md**](https://github.com/Neilsmahajan/project-tree-md): draws a folder structure as a Markdown tree to paste into a README. `go install github.com/neilsmahajan/project-tree-md@latest`
+- [**developer-toolbox**](https://github.com/Neilsmahajan/developer-toolbox): small command-line tools for everyday development. First up is bash-guard, a Claude Code hook that stops an agent from polling in a loop, starting a dev server in the foreground or `cd`-ing into a folder that doesn't exist.
 - [**agent-artifacts**](https://github.com/Neilsmahajan/agent-artifacts): a skill for publishing agent-written pages to your own Cloudflare Pages site, with per-page sharing and comments.
 - [**typing-test-tui**](https://github.com/Neilsmahajan/typing-test-tui): a terminal typing trainer with word lists and code snippets.
 
